@@ -14,6 +14,7 @@ lateinit var smartPhone: SmartPhone
 
         (application as SmartPhoneApplication).smartPhoneComponent
             .inject(this)
+        smartPhone.makeACallWithRecording()
 
     }
 }
